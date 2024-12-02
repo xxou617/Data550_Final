@@ -10,7 +10,11 @@ table_model: codes/2_model.R
 
 figure: codes/3_figure.R
 	Rscript codes/3_figure.R
-	
+
+.PHONY: install
+install:
+    Rscript -e "renv::restore(prompt = FALSE)"
+    
 .PHONY: clean
 clean:
 	rm -f output/*.rds && rm -f Report.html 
