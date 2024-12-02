@@ -13,7 +13,7 @@ figure: codes/3_figure.R
 
 .PHONY: install
 install:
-    Rscript -e "renv::restore(prompt = FALSE)"
+	Rscript -e "renv::restore()"
     
 .PHONY: clean
 clean:
