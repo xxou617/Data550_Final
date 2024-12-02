@@ -1,7 +1,7 @@
 Final project: the risk factors for cardiovascular disease
 ================
 Xiaxian Ou
-2024-11-17
+2024-12-01
 
 # Project description
 
@@ -34,3 +34,14 @@ Xiaxian Ou
 `Makefile`
 
 - contains rules for building the report
+
+# synchronize the package
+
+This project uses the `renv` package to manage its R package
+dependencies. To synchronize the package environment:
+
+1.  Install the `renv` package if it is not already installed:
+    `install.packages("renv")` and active the environment
+    `source("renv/activate")` in R console
+
+2.  Restore the package environment `make install` in terminal
