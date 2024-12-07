@@ -1,5 +1,5 @@
 # library packages
-pacman::p_load(tidyverse,ggplot2)
+pacman::p_load(tidyverse,ggplot2, here)
 # path
 here::i_am("codes/3_figure.R")
 # load data

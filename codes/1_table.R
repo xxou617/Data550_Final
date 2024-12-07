@@ -1,5 +1,5 @@
 # library packages
-pacman::p_load(tidyverse, gtsummary, labelled)
+pacman::p_load(tidyverse, gtsummary, labelled, here)
 # path
 here::i_am("codes/1_table.R")
 # load data

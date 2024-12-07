@@ -35,14 +35,17 @@ output:
 
 `Makefile`
 
-  - contains rules for building the report
+  - `make` or `make Report.html` to get final report
+  - `make clean` to remove results and report
 
 
 # synchronize the package
 
 This project uses the `renv` package to manage its R package dependencies. To synchronize the package environment:
 
-1. Install the `renv` package if it is not already installed: `install.packages("renv")` and active the environment `source("renv/activate")` in R console
+1. Install the `renv` package if it is not already installed: `install.packages("renv")` .
+
+2. use `setwd()` to set working directory. Active the environment `source("renv/activate")` in R console
    
 3. Restore the package environment `make install` in terminal
    
